@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ddm14159/qwintry-logistics:latest
+          tags: ddm14159/devops-for-programmers-project-74:latest
