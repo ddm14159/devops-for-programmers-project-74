@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
       - name: test
-        run: make ci
+        run: make setup && make ci
 
       - uses: docker/build-push-action@v2
         with:

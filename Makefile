@@ -9,3 +9,6 @@ build:
 
 push:
 	docker-compose -f docker-compose.yml push app
+
+setup:
+	cp .env.example .env
