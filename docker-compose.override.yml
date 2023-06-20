@@ -10,7 +10,7 @@ services:
       - 8080:8080
     command: bash -c 'sleep 3 && npm start'
 
-  reverse-proxy:
+  caddy:
     image: caddy:2.6
     restart: unless-stopped
     ports:
